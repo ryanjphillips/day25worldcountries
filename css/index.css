@@ -1,0 +1,89 @@
+h1.main-header{
+    color: #F2A93B;
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    font-weight: lighter;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h2.main-header-two{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+div.header-div{
+    margin-bottom: 30px;
+}
+div.button-div{
+    background-color: #F3F3F3 ;
+    height: 100px;
+    position: relative;
+    border-radius: 2px;
+    border-left: lightgray thin solid;
+    border-right: lightgray thin solid;
+    border-top: lightgray thin solid;
+    border-bottom: none;
+}
+button.population-button{
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    background-color: #F2A93B;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+button.languages-button{
+    position: absolute;
+    top: 15%;
+    left: 50.5%;
+    background-color: #F2A93B;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+div.table-div{
+    background-color:#F0F1F2;
+    border: lightgray thin solid;
+    border-radius: 5px;
+    height: 1200px;
+}
+
+h3.table-data{
+    position: relative;
+    top: 55%;
+    left: 32%;
+    font-weight: lighter;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 20px;
+}
+
+@media screen and (max-width: 1919px){
+    button.population-button{
+        left: 25%;
+    }
+}
+@media screen and (max-width: 1919px){
+    h3.table-data{
+        left: 5%;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    h3.table-data{
+        font-size: 10px;
+    }
+}
+
